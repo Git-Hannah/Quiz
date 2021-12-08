@@ -1,0 +1,104 @@
+:root {
+	--color-primary: #027373;
+	--color-secondary: #a6374b;
+	--color-tertiary: #012626;
+	--color-quartiary: #8c3503;
+}
+/**
+ * Minimal Reset
+ */
+body {
+	margin: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+
+.qcard {
+	margin: 20px;
+	width: 50vw;
+	background-color: var(--color-primary);
+
+	border-radius: 10px 10px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	
+}
+
+.qcard-header {
+	display: flex;
+	justify-content: space-between;
+
+	background-color: var(--color-secondary);
+	padding: 10px;
+	color: white;
+
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.qcard-bm--checked {
+	width: 50px;
+	color: white;
+}
+.qcard-bm--unchecked {
+	width: 50px;
+}
+
+.qcard-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.qcard-question {
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+
+	color: var(--color-tertiary);
+
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.qcard-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 12px;
+
+	background: var(--color-secondary);
+
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 50px;
+}
+.qcard-answer {
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+
+	color: var(--color-tertiary);
+
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.qcard-tags {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: var(--color-tertiary);
+
+}
+.qcard-tags *{
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+
+
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
