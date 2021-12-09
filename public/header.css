@@ -2,7 +2,7 @@
 	font-family: "Times New Roman", Times, serif;
 	background-color: var(--color-primary);
 	color: white;
-	font: bolder;
+	font: bold;
 	display: flex;
 	justify-content: center;
 	padding: 20px;
