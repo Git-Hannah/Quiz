@@ -1,3 +1,11 @@
+:root {
+	--color-primary: #027373;
+	--color-secondary: #a6374b;
+	--color-tertiary: #012626;
+	--color-quaternary: #8c3503;
+
+	--color-secondary-light: #d18794;
+}
 /**
  * Minimal Reset
  */
@@ -10,4 +18,3 @@ body {
 *::after {
 	box-sizing: border-box;
 }
-
