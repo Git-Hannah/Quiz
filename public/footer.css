@@ -10,11 +10,16 @@
 }
 
 .footer {
-	height: 50%;
+	height: 100px;
 	background: black;
 }
+.footer--clicked {
+	display: block;
+}
+
 .navbar {
 	background: var(--color-primary);
+	display: none;
 
 	position: fixed;
 	top: 100%;
@@ -44,6 +49,9 @@
 .navbar-icon:hover {
 	padding: 10px;
 	color: var(--color-secondary-light);
+}
+.navbar--showing {
+	display: block;
 }
 
 .navbar-bm {
