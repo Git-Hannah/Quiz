@@ -77,10 +77,15 @@ body {
 		0px 2px 4px rgba(0, 0, 0, 0.2);
 	border-radius: 50px;
 }
+.qcard-button--clicked {
+	background: blue;
+}
+
 .qcard-answer {
 	margin: 10px;
 	padding: 10px;
 	background-color: white;
+	display: none;
 
 	color: var(--color-tertiary);
 
@@ -88,6 +93,10 @@ body {
 		0px 2px 4px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 }
+.qcard-answer--showing {
+	display: block;
+}
+
 .qcard-tags {
 	display: flex;
 	justify-content: space-around;
