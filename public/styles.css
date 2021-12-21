@@ -1,16 +1,10 @@
-:root {
-	--color-primary: #027373;
-	--color-secondary: #a6374b;
-	--color-tertiary: #012626;
-	--color-quaternary: #8c3503;
-
-	--color-secondary-light: #d18794;
-}
 /**
  * Minimal Reset
  */
 body {
 	margin: 0;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
 }
 
 *,

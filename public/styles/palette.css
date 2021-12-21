@@ -1,0 +1,13 @@
+:root {
+	--color-primary: hsl(227, 38%, 83%);
+	--color-secondary: hsl(305, 16%, 50%);
+	--color-tertiary: #594057;
+	--color-quartiary: #bee7e8;
+	
+	--color-darkbluegray: #716ca7;
+	--color-middleblue: #6bb9c7;
+	--color-pink: hsl(305, 76%, 80%);
+}
+/* coolors link:
+https://coolors.co/594157-726da8-7d8cc4-6bb9c7-bee7e8
+ */

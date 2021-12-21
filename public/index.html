@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>HTML App</title>
-		<link rel="icon" href="/favicon.ico" />
+		<title>Quiz</title>
+		<link rel="icon" href="/favicon.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -16,61 +16,100 @@
 		<link rel="stylesheet" href="/header.css" />
 		<link rel="stylesheet" href="/card.css" />
 		<link rel="stylesheet" href="/footer.css" />
-
 	</head>
 	<body>
 		<header>
-			<h1 class="header-h1">Quiz App</h1>
+			<h1 class="header-h1">Quizzies</h1>
 		</header>
 		<main>
-
-			<div class="qcard">
+			<!-- First Qcard -->
+			<div class="qcard js-qcard">
 				<div class="qcard-header">
 					<div class="qcard-title"><h2>Question:</h2></div>
 					<div class="qcard-bm">
-						<svg class="qcard-bm--checked" viewBox="0 0 24 24">
+						<svg class="qcard-bm-icon" viewBox="0 0 24 24">
 							<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
-						</svg>
-
-						<svg class="qcard-bm--unchecked" viewBox="0 0 24 24">
-							<path
-								d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
-							/>
 						</svg>
 					</div>
 				</div>
 				<div class="qcard-body">
-					<div class="qcard-question"><p>How many clowns in a car?</p></div>
+					<div class="qcard-question">
+						<p>Was brennt und hüpft im Zickzack über die Wiese?</p>
+					</div>
 					<button class="qcard-button">Show Answer</button>
 					<div class="qcard-answer">
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-							voluptates explicabo, saepe praesentium sit illum ipsum, esse suscipit
-							libero consectetur, nihil sunt reprehenderit? Inventore quisquam
-							provident ducimus eaque tenetur earum!
-						</p>
+						<p>Ein Kaminchen!</p>
 					</div>
 					<div class="qcard-tags">
-						<div class="qcard-tag">#Tag1</div>
-						<div class="qcard-tag">#Tag2</div>
-						<div class="qcard-tag">#Tag3</div>
-						<div class="qcard-tag">#Tag4</div>
+						<div class="qcard-tag">#Life</div>
+						<div class="qcard-tag">#Animals</div>
+						<div class="qcard-tag">#Pyro</div>
+						<div class="qcard-tag">#Flachwitze</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="qcard">
+			<!-- Second Qcard -->
+			<div class="qcard js-qcard">
 				<div class="qcard-header">
 					<div class="qcard-title"><h2>Question:</h2></div>
 					<div class="qcard-bm">
-						<svg class="qcard-bm--checked" viewBox="0 0 24 24">
+						<svg class="qcard-bm-icon" viewBox="0 0 24 24">
 							<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
 						</svg>
+					</div>
+				</div>
+				<div class="qcard-body">
+					<div class="qcard-question">
+						<p>What should you remember?</p>
+					</div>
+					<button class="qcard-button">Show Answer</button>
+					<div class="qcard-answer">
+						<p>Remember what the doormouse said!</p>
+					</div>
+					<div class="qcard-tags">
+						<div class="qcard-tag">#Life</div>
+						<div class="qcard-tag">#Galaxy</div>
+						<div class="qcard-tag">#Trivia</div>
+						<div class="qcard-tag">#Spiritual</div>
+					</div>
+				</div>
+			</div>
 
-						<svg class="qcard-bm--unchecked" viewBox="0 0 24 24">
-							<path
-								d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
-							/>
+			<!-- Third Qcard -->
+			<div class="qcard js-qcard">
+				<div class="qcard-header">
+					<div class="qcard-title"><h2>Question:</h2></div>
+					<div class="qcard-bm">
+						<svg class="qcard-bm-icon" viewBox="0 0 24 24">
+							<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+						</svg>
+					</div>
+				</div>
+				<div class="qcard-body">
+					<div class="qcard-question">
+						<p>What is the meaning of life and everything?</p>
+					</div>
+					<button class="qcard-button">Show Answer</button>
+					<div class="qcard-answer">
+						<p>42</p>
+					</div>
+					<div class="qcard-tags">
+						<div class="qcard-tag">#Life</div>
+						<div class="qcard-tag">#Galaxy</div>
+						<div class="qcard-tag">#Trivia</div>
+						<div class="qcard-tag">#Spiritual</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Fourth Qcard -->
+			<div class="qcard js-qcard">
+				<div class="qcard-header">
+					<div class="qcard-title"><h2>Question:</h2></div>
+					<div class="qcard-bm">
+						<svg class="qcard-bm-icon" viewBox="0 0 24 24">
+							<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
 						</svg>
 					</div>
 				</div>
@@ -78,18 +117,13 @@
 					<div class="qcard-question"><p>How many clowns in a car?</p></div>
 					<button class="qcard-button">Show Answer</button>
 					<div class="qcard-answer">
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-							voluptates explicabo, saepe praesentium sit illum ipsum, esse suscipit
-							libero consectetur, nihil sunt reprehenderit? Inventore quisquam
-							provident ducimus eaque tenetur earum!
-						</p>
+						<p>As long as the day is new!</p>
 					</div>
 					<div class="qcard-tags">
-						<div class="qcard-tag">#Tag1</div>
-						<div class="qcard-tag">#Tag2</div>
-						<div class="qcard-tag">#Tag3</div>
-						<div class="qcard-tag">#Tag4</div>
+						<div class="qcard-tag">#Circus</div>
+						<div class="qcard-tag">#Cars</div>
+						<div class="qcard-tag">#Math</div>
+						<div class="qcard-tag">#Logic</div>
 					</div>
 				</div>
 			</div>
@@ -98,27 +132,32 @@
 			<nav class="navbar">
 				<a href="" class="navbar-home">
 					<svg class="navbar-icon" viewBox="0 0 24 24">
-					<path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />					
-				</svg>
+						<path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+					</svg>
 				</a>
 				<a href="" class="navbar-link">
-						 <svg class="navbar-icon navbar-bm" viewBox="0 0 24 24">
-							<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
-							</svg>
+					<svg class="navbar-icon navbar-bm" viewBox="0 0 24 24">
+						<path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+					</svg>
 				</a>
 				<a href="" class="navbar-tags">
 					<svg class="navbar-icon navbar-tag" viewBox="0 0 24 24">
-						<path fill="currentColor" d="M5.5,7A1.5,1.5 0 0,1 4,5.5A1.5,1.5 0 0,1 5.5,4A1.5,1.5 0 0,1 7,5.5A1.5,1.5 0 0,1 5.5,7M21.41,11.58L12.41,2.58C12.05,2.22 11.55,2 11,2H4C2.89,2 2,2.89 2,4V11C2,11.55 2.22,12.05 2.59,12.41L11.58,21.41C11.95,21.77 12.45,22 13,22C13.55,22 14.05,21.77 14.41,21.41L21.41,14.41C21.78,14.05 22,13.55 22,13C22,12.44 21.77,11.94 21.41,11.58Z" />                </svg>
-	
+						<path
+							fill="currentColor"
+							d="M5.5,7A1.5,1.5 0 0,1 4,5.5A1.5,1.5 0 0,1 5.5,4A1.5,1.5 0 0,1 7,5.5A1.5,1.5 0 0,1 5.5,7M21.41,11.58L12.41,2.58C12.05,2.22 11.55,2 11,2H4C2.89,2 2,2.89 2,4V11C2,11.55 2.22,12.05 2.59,12.41L11.58,21.41C11.95,21.77 12.45,22 13,22C13.55,22 14.05,21.77 14.41,21.41L21.41,14.41C21.78,14.05 22,13.55 22,13C22,12.44 21.77,11.94 21.41,11.58Z"
+						/>
+					</svg>
 				</a>
 				<a href="" class="navbar-profile">
 					<svg class="navbar-icon" viewBox="0 0 24 24">
-					<path fill="currentColor" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+						<path
+							fill="currentColor"
+							d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+						/>
 					</svg>
 				</a>
 			</nav>
 		</footer>
 		<script src="/index.js"></script>
-
 	</body>
 </html>
